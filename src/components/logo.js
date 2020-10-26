@@ -11,7 +11,9 @@ export default function Logo({ siteTitle }) {
         <Image src={LogoGatbsy} size="50px" />
         <Box ml="10px">
           <Heading fontSize="24px">{siteTitle}</Heading>
-          <Text color="gray.500">Belajar bersama Gatbsy JS Indonesia</Text>
+          <Text color="gray.500">
+            Membawa perubahan untuk Bangsa dan Negara
+          </Text>
         </Box>
       </Flex>
     </>
