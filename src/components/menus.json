@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Beranda", "path": "/" },
+  { "id": 2, "name": "Artikel", "path": "/artikel" },
+  { "id": 3, "name": "Komunitas", "path": "/komunitas" },
+  { "id": 4, "name": "Video", "path": "/video" },
+  { "id": 5, "name": "Aplikasi", "path": "/aplikasi" },
+  { "id": 6, "name": "Tentang Kami", "path": "/tentang-kami" }
+]

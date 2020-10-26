@@ -3,6 +3,7 @@ import React from "react"
 import { Button, Flex, Stack, Text } from "@chakra-ui/core"
 // components
 import Logo from "./logo"
+import menus from "./menus"
 
 const Header = ({ siteTitle }) => (
   <>
@@ -15,12 +16,11 @@ const Header = ({ siteTitle }) => (
     >
       <Logo siteTitle={siteTitle} />
       <Stack isInline>
-        <Text>Beranda</Text>
-        <Text>Artikel</Text>
-        <Text>Komunitas</Text>
-        <Text>Video</Text>
-        <Text>Aplikasi</Text>
-        <Text>Tentang Kami</Text>
+        {menus.map(menu => (
+          <Text color="gray.600" key={menu.id}>
+            <Link to={menu.path}>{menu.name}</Link>
+          </Text>
+        ))}
       </Stack>
     </Flex>
   </>
