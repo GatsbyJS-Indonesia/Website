@@ -8,6 +8,8 @@ const Komunitas = () => (
   <Layout>
     <SEO title="Komunitas" />
     <h1>Komunitas</h1>
+    <br />
+    <Link to="/">Back to home</Link>
   </Layout>
 )
 

@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Button, Flex, Stack, Text } from "@chakra-ui/core"
+import { Flex, Stack, Text } from "@chakra-ui/core"
 // components
 import Logo from "./logo"
 import menus from "./menus"

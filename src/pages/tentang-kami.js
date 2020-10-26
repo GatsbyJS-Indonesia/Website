@@ -8,6 +8,8 @@ const TentangKami = () => (
   <Layout>
     <SEO title="Tentang Kami" />
     <h1>Tentang Kami</h1>
+    <br />
+    <Link to="/">Back to home</Link>
   </Layout>
 )
 

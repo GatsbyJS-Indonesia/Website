@@ -8,6 +8,8 @@ const Aplikasi = () => (
   <Layout>
     <SEO title="Aplikasi" />
     <h1>Aplikasi</h1>
+    <br />
+    <Link to="/">Back to home</Link>
   </Layout>
 )
 
