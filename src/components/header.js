@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       justifyContent="space-between"
       alignItems="center"
       pt="10px"
-      mb="30px"
+      mb="60px"
     >
       <Logo siteTitle={siteTitle} />
       <Stack isInline>

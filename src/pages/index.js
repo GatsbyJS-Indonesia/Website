@@ -3,12 +3,13 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 
 const IndexPage = () => (
   <>
     <Layout>
       <SEO title="Beranda" />
-      <h1>Hi Gatsby ID</h1>
+      <Hero />
       <Link to="/artikel">Shortcut to Artikel</Link>
     </Layout>
   </>
