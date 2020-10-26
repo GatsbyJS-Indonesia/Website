@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       <Logo siteTitle={siteTitle} />
       <Stack isInline>
         {menus.map(menu => (
-          <Text color="gray.600" key={menu.id}>
+          <Text px="10px" color="gray.600" key={menu.id}>
             <Link to={menu.path}>{menu.name}</Link>
           </Text>
         ))}
