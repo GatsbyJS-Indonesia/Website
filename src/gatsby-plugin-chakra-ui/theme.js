@@ -6,7 +6,7 @@ const customTheme = {
     ...theme.fonts,
     primary: {
       logo: "Lucida Handwriting",
-      heroBody: "Comic Sans MS",
+      mainBody: "Comic Sans MS",
     },
     heading: "Menlo, monospace",
   },
