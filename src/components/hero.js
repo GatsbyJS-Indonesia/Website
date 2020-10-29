@@ -7,12 +7,7 @@ import JimmyImage from "../images/jimmy.svg"
 export default function Hero() {
   return (
     <>
-      <Flex
-        alignItems="center"
-        justifyContent="center"
-        align="center"
-        mb="30px"
-      >
+      <Flex alignItems="center" justifyContent="center" mb="30px">
         <Box>
           <Stack isInline>
             <Box
