@@ -1,9 +1,8 @@
 import React from "react"
 import { Text, Box, Stack } from "@chakra-ui/core"
-import { GoOctoface } from "react-icons/go"
-import { WiDayLightning } from "react-icons/wi"
+import { FaAngellist } from "react-icons/fa"
 
-export default function CardBoard({ title }) {
+export default function CardBoard({ title, body }) {
   return (
     <Box
       borderRadius="5px"
@@ -15,16 +14,11 @@ export default function CardBoard({ title }) {
       color="gray.600"
       maxWidth="300px"
     >
-      <Stack
-        isInline
-        d="flex"
-        justifyContent="space-between"
-        alignItems="center"
-      >
-        <Box as={GoOctoface} size="32px" color="green.400" />
-        <Box as={WiDayLightning} size="32px" color="teal.400" />
+      <Stack isInline>
+        <Box as={FaAngellist} size="32px" color="green.400" />
+        <Text>{title}</Text>
       </Stack>
-      <Text>{title}</Text>
+      <Text pt="19px">{body}</Text>
     </Box>
   )
 }

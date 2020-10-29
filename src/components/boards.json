@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Artikel",
+    "body": "Dapatkan kumpulan artikel-artikel yang ditulis oleh komunitas"
+  },
+  {
+    "id": 2,
+    "title": "Video",
+    "body": "Belajar dari Video menarik dari youtube dan medsos lainnya"
+  },
+  {
+    "id": 3,
+    "title": "Aplikasi",
+    "body": "Koleksi aplikasi yang keren-keren dari programmer Indonesia"
+  },
+  {
+    "id": 4,
+    "title": "Komunitas",
+    "body": "Daftar komunitas berserta peran dan group di Indonesia"
+  },
+  {
+    "id": 5,
+    "title": "Tentang Kami",
+    "body": "Informasi tentang Komunitas Gatsby JS Indonesia"
+  }
+]

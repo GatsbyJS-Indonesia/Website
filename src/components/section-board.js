@@ -3,6 +3,7 @@ import { Text, Box, Flex, Stack, SimpleGrid, Image } from "@chakra-ui/core"
 //components
 import CardBoard from "./card-board"
 import TeamImage from "../images/team-features.png"
+import boards from "./boards"
 
 export default function SectionBoard() {
   return (
@@ -46,13 +47,11 @@ export default function SectionBoard() {
           justifyContent="center"
           alignItems="center"
           d="flex"
-          height="400px"
         >
           <SimpleGrid columns={2} spacing={2}>
-            <CardBoard title="Card Board tentang isi Artikel" />
-            <CardBoard title="Card Board Video tutorial dari YT dan sosmed lainnya" />
-            <CardBoard title="Card Board contoh aplikasi yang dibuat oleh komunitas" />
-            <CardBoard title="Card Board informasi komunitas JS" />
+            {boards.map(board => (
+              <CardBoard key={board.id} title={board.title} body={board.body} />
+            ))}
           </SimpleGrid>
         </Box>
       </Stack>

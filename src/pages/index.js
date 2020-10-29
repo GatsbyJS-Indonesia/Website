@@ -14,6 +14,8 @@ const IndexPage = () => (
       <Hero />
       <DividerLine />
       <SectionBoard />
+      <DividerLine />
+
       <Link to="/artikel">Shortcut to Artikel</Link>
     </Layout>
   </>
