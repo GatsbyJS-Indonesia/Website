@@ -16,19 +16,17 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Box maxWidth="1200px" mx="auto">
-        <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-        <div>
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, dibuat oleh komunitas
-            {` `}
-            <a href="https://gatsbyjs.id">GatsbyJS Indonesia</a>
-          </footer>
-        </div>
-      </Box>
-    </>
+    <Box maxWidth="1200px" mx="auto">
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <div>
+        <main>{children}</main>
+        <footer>
+          © {new Date().getFullYear()}, dibuat oleh komunitas
+          {` `}
+          <a href="https://gatsbyjs.id">GatsbyJS Indonesia</a>
+        </footer>
+      </div>
+    </Box>
   )
 }
 
