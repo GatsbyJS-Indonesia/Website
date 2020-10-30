@@ -3,6 +3,6 @@ import React from "react"
 //components
 import SectionContainer from "../components/section-container"
 
-export default function SectionArtikel() {
-  return <SectionContainer>Artikel</SectionContainer>
+export default function SectionVideo() {
+  return <SectionContainer>Video</SectionContainer>
 }
